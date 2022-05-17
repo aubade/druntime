@@ -17,7 +17,7 @@ DOCDIR=doc
 IMPDIR=import
 
 DFLAGS=-m32omf -conf= -O -release -preview=dip1000 -preview=fieldwise -preview=dtorfields -inline -w -Isrc -Iimport -g -gs
-UDFLAGS=-m32omf -conf= -O -release -preview=dip1000 -preview=fieldwise -w -Isrc -Iimport
+UDFLAGS=-m32omf -conf= -O -release -preview=dip1000 -preview=fieldwise -w -Isrc -Iimport -g -gs
 DDOCFLAGS=-conf= -c -w -o- -Isrc -Iimport -version=CoreDdoc
 
 UTFLAGS=-version=CoreUnittest -unittest -checkaction=context
